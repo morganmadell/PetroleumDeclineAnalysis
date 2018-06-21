@@ -1,0 +1,40 @@
+Abandon_Rate_Gas        Returns an estimate of a gas well's abandonment
+                        rate (Mcf/d) based on the depth of the
+                        completed interval (m).
+Abandon_Rate_Oil        Returns an estimate of an oil well's
+                        abandonment rate (bbl/d) based on the depth of
+                        the completed interval (m)
+Arps_Reserves           Calculate the reserves using a generalized Arps
+                        decline
+Boot.Exp.Reserves       Calculates exponential reserves with
+                        uncertainty using bootstrap method
+Boot.Harm.Reserves      Calculates harmonic reserves with uncertainty
+                        using bootstrap method
+Boot.Watten.Reserves    Calculates linear flow reserves with
+                        uncertainty using bootstrap method
+Gas_Data                Returns a data frame with just the variables we
+                        need to perform a gas decline.
+Gas_Reserves            Calculate the gas reserves using several
+                        different exponential and harmonic declines.
+Oil_Data                Returns a data frame with just the variables we
+                        need to perform an oil decline.
+Oil_Reserves            Calculate the oil reserves using several
+                        different exponential and harmonic declines.
+Peak_Quarter            Returns the peak rolling-quarter rate.
+Peak_Rate               Returns a data frame with the UWI and peak
+                        monthly gas rate.
+boot.lm                 Returns a function that fits a linear model to
+                        a random sample of a dataset... ie do a
+                        bootstrap fit
+boot.lqs                Returns a function that does a quantile
+                        regression linear model to a random sample of a
+                        dataset... ie do a bootstrap fit
+break.lm                Returns the index of the optimum breakpoints
+                        (no more than 3) for a linear model of form
+                        "formula" on data "x".
+break.lm.full           Returns the full analysis of breakpoints (no
+                        more than 3) for a linear model of form
+                        "formula" on data "x". To install the
+                        breakpoints packages
+                        'install.packages("breakpoint",repos="http://cran.r-project.org/",
+                        type="source")'

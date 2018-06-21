@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Arps Decline Curve Analysis in R</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Arps Decline Curve Analysis in R
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;aRpsDCA&rsquo; version 1.1.1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="aRpsDCA-package.html">aRpsDCA-package</a></td>
+<td>Arps Decline Curve Analysis in R</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.D</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.D.arps</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">arps.D.curtailed</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.D.exponential</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.D.hyp2exp</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.D.hyperbolic</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.decline</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="eur.html">arps.eur</a></td>
+<td>EUR and time-to-limit for Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.Np</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.Np.arps</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">arps.Np.curtailed</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.Np.exponential</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.Np.hyp2exp</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.Np.hyperbolic</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.q</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.q.arps</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">arps.q.curtailed</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.q.exponential</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.q.hyp2exp</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="arps.html">arps.q.hyperbolic</a></td>
+<td>Arps decline classes and S3 methods</td></tr>
+<tr><td style="width: 25%;"><a href="eur.html">arps.t.el</a></td>
+<td>EUR and time-to-limit for Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="arps.with.buildup.html">arps.with.buildup</a></td>
+<td>Arps declines with linear buildup period</td></tr>
+<tr><td style="width: 25%;"><a href="aRpsDCA-package.html">aRpsDCA</a></td>
+<td>Arps Decline Curve Analysis in R</td></tr>
+<tr><td style="width: 25%;"><a href="as.effective.html">as.effective</a></td>
+<td>Arps decline conversion from nominal to effective</td></tr>
+<tr><td style="width: 25%;"><a href="as.nominal.html">as.nominal</a></td>
+<td>Arps decline conversion from effective to nominal</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.curtailed.fit</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.curtailed.fit.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.curtailed.fit.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.curtailed</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.curtailed.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.curtailed.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.from.interval.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.from.Np.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.exponential.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.fit</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.fit.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.fit.from.interval.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.fit.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.fit.from.Np.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.fit.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.curtailed</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.curtailed.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.curtailed.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.from.interval.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.from.Np.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyp2exp.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.curtailed</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.curtailed.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.curtailed.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.from.interval</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.from.interval.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.from.Np</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.from.Np.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">best.hyperbolic.with.buildup</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="bestfit.html">bestfit</a></td>
+<td>Best-fitting of Arps decline curves</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">curtail</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">curtailed</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">curtailed.D</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">curtailed.Np</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="curtailed.html">curtailed.q</a></td>
+<td>Arps decline curves with initial curtailment</td></tr>
+<tr><td style="width: 25%;"><a href="exponential.html">exponential</a></td>
+<td>Arps exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="exponential.html">exponential.Np</a></td>
+<td>Arps exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="exponential.html">exponential.q</a></td>
+<td>Arps exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="format.arps.html">format.arps</a></td>
+<td>Format methods for Arps decline objects</td></tr>
+<tr><td style="width: 25%;"><a href="harmonic.html">harmonic</a></td>
+<td>Arps harmonic declines</td></tr>
+<tr><td style="width: 25%;"><a href="harmonic.html">harmonic.D</a></td>
+<td>Arps harmonic declines</td></tr>
+<tr><td style="width: 25%;"><a href="harmonic.html">harmonic.Np</a></td>
+<td>Arps harmonic declines</td></tr>
+<tr><td style="width: 25%;"><a href="harmonic.html">harmonic.q</a></td>
+<td>Arps harmonic declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyp2exp.html">hyp2exp</a></td>
+<td>Arps hyperbolic-to-exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyp2exp.html">hyp2exp.D</a></td>
+<td>Arps hyperbolic-to-exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyp2exp.html">hyp2exp.Np</a></td>
+<td>Arps hyperbolic-to-exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyp2exp.html">hyp2exp.q</a></td>
+<td>Arps hyperbolic-to-exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyp2exp.html">hyp2exp.transition</a></td>
+<td>Arps hyperbolic-to-exponential declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyperbolic.html">hyperbolic</a></td>
+<td>Arps hyperbolic declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyperbolic.html">hyperbolic.D</a></td>
+<td>Arps hyperbolic declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyperbolic.html">hyperbolic.Np</a></td>
+<td>Arps hyperbolic declines</td></tr>
+<tr><td style="width: 25%;"><a href="hyperbolic.html">hyperbolic.q</a></td>
+<td>Arps hyperbolic declines</td></tr>
+<tr><td style="width: 25%;"><a href="print.arps.html">print.arps</a></td>
+<td>Print methods for Arps decline objects</td></tr>
+<tr><td style="width: 25%;"><a href="rescale.by.time.html">rescale.by.time</a></td>
+<td>Time unit conversion for DCA</td></tr>
+</table>
+</body></html>

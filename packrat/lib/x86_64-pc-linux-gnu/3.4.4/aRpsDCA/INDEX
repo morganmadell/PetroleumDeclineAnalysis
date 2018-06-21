@@ -1,0 +1,17 @@
+aRpsDCA-package         Arps Decline Curve Analysis in R
+arps                    Arps decline classes and S3 methods
+arps.eur                EUR and time-to-limit for Arps decline curves
+arps.with.buildup       Arps declines with linear buildup period
+as.effective            Arps decline conversion from nominal to
+                        effective
+as.nominal              Arps decline conversion from effective to
+                        nominal
+bestfit                 Best-fitting of Arps decline curves
+curtailed               Arps decline curves with initial curtailment
+exponential             Arps exponential declines
+format.arps             Format methods for Arps decline objects
+harmonic                Arps harmonic declines
+hyp2exp                 Arps hyperbolic-to-exponential declines
+hyperbolic              Arps hyperbolic declines
+print.arps              Print methods for Arps decline objects
+rescale.by.time         Time unit conversion for DCA

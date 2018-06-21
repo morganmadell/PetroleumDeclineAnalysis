@@ -1,0 +1,58 @@
+G_delta_alpha           Heavy tail transformation for Lambert W random
+                        variables
+Gaussianize             Gaussianize matrix-like objects
+H_gamma                 H transformation with gamma
+IGMM                    Iterative Generalized Method of Moments - IGMM
+LambertW-package        R package for Lambert W \times F distributions
+LambertW-toolkit        Do-it-yourself toolkit for Lambert W \times F
+                        distribution
+LambertW-utils          Utilities for Lambert W \times F Random
+                        Variables
+LambertW_fit-methods    Methods for Lambert W\times F estimates
+LambertW_input_output-methods
+                        Methods for Lambert W input and output objects
+MLE_LambertW            Maximum Likelihood Estimation for Lambert W
+                        \times F distributions
+U-utils                 Zero-mean, unit-variance version of standard
+                        distributions
+W                       Lambert W function, its logarithm and
+                        derivative
+W_delta                 Inverse transformation for heavy-tail Lambert W
+                        RVs
+W_gamma                 Inverse transformation for skewed Lambert W RVs
+analyze_convergence     Analyze convergence of Lambert W estimators
+beta-utils              Utilities for parameter vector beta of the
+                        input distribution
+bootstrap               Bootstrap Lambert W x F estimates
+common-arguments        Common arguments for several functions
+datasets                Datasets
+delta_01                Input parameters to get zero mean, unit
+                        variance output given delta
+delta_GMM               Estimate delta
+delta_Taylor            Estimate of delta by Taylor approximation
+deprecated-functions    List of deprecated functions
+distname-utils          Utilities for distributions supported in this
+                        package
+gamma_01                Input parameters to get a zero mean, unit
+                        variance output for a given gamma
+gamma_GMM               Estimate gamma
+gamma_Taylor            Estimate gamma by Taylor approximation
+get_gamma_bounds        Get bounds for gamma
+get_input               Back-transform Y to X
+get_output              Transform input X to output Y
+get_support             Computes support for skewed Lambert W x F
+                        distributions
+ks.test.t               One-sample Kolmogorov-Smirnov test for
+                        student-t distribution
+kurtosis                Skewness and kurtosis
+loglik-LambertW-utils   Log-Likelihood for Lambert W\times F RVs
+lp_norm                 lp norm of a vector
+medcouple_estimator     MedCouple Estimator
+p_m1                    Non-principal branch probability
+tau-utils               Utilities for transformation vector tau
+test_normality          Visual and statistical Gaussianity check
+test_symmetry           Test symmetry based on Lambert W heavy tail(s)
+theta-utils             Utilities for the parameter vector of Lambert
+                        W\times F distributions
+xexp                    Transformation that defines the Lambert W
+                        function and its derivative
