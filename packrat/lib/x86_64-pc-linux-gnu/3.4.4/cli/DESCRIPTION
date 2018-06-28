@@ -23,7 +23,7 @@ Author: Gábor Csárdi [aut, cre], Hadley Wickham [ctb], Kirill Müller
 Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
 Repository: CRAN
 Date/Publication: 2017-11-05 12:38:47 UTC
-Built: R 3.4.4; ; 2018-06-15 02:38:14 UTC; unix
+Built: R 3.4.4; ; 2018-06-27 22:19:43 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: f4239f89feb7ddc65821e4514e9734ae

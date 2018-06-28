@@ -37,7 +37,7 @@ Author: Jim Hester [aut, cre], Kirill Müller [aut], Kevin Ushey [aut],
 Maintainer: Jim Hester <james.f.hester@gmail.com>
 Repository: CRAN
 Date/Publication: 2018-03-15 22:39:56 UTC
-Built: R 3.4.4; ; 2018-06-15 02:37:30 UTC; unix
+Built: R 3.4.4; ; 2018-06-27 22:19:40 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: d534108bcd5f34ec73e9eb523751ba20

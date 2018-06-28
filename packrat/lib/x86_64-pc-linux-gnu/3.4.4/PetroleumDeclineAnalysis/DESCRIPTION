@@ -1,11 +1,15 @@
 Package: PetroleumDeclineAnalysis
 Type: Package
-Title: Function to perform decline analysis on monthly oil and gas
+Title: Functions to perform decline analysis on monthly oil and gas
         production data
 Version: 0.1.0
 Author: Michael D Morgan
 Maintainer: Michael D Morgan <morganmadell@gmail.com>
-Description: Awesome.  I'm sure it's a great one!
+URL: https://github.com/morganmadell/PetroleumDeclineAnalysis
+Description: Various functions to perform decline analysis on monthly Canadian oil and 
+  gas production data pulled from standard data sources.  Includes functions to perform 
+  exponential, harmonic and generalized Arps declines.  Also includes functions to 
+  estimate abandonment rates, perform boot strap sampling.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -14,4 +18,4 @@ LazyLoad: yes
 Imports: aRpsDCA, graphics, LambertW, lattice, MASS, methods, sandwich,
         segmented, stats, strucchange, TeachingDemos, utils, zoo
 Suggests: testthat
-Built: R 3.4.4; ; 2018-06-20 23:47:19 UTC; unix
+Built: R 3.4.4; ; 2018-06-28 02:14:51 UTC; unix

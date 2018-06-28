@@ -19,7 +19,7 @@ Packaged: 2014-11-22 08:50:53 UTC; shb
 NeedsCompilation: no
 Repository: CRAN
 Date/Publication: 2014-11-22 19:15:57
-Built: R 3.4.4; ; 2018-06-15 02:36:04 UTC; unix
+Built: R 3.4.4; ; 2018-06-27 22:19:26 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: bdc4d48c3135e8f3b399536ddf160df4

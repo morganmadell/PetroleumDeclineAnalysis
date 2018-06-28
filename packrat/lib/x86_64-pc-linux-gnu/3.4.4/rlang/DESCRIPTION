@@ -22,7 +22,7 @@ Author: Lionel Henry [aut, cre], Hadley Wickham [aut], RStudio [cph]
 Maintainer: Lionel Henry <lionel@rstudio.com>
 Repository: CRAN
 Date/Publication: 2018-05-30 14:23:07 UTC
-Built: R 3.4.4; x86_64-pc-linux-gnu; 2018-06-15 02:36:09 UTC; unix
+Built: R 3.4.4; x86_64-pc-linux-gnu; 2018-06-27 22:19:32 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: 2b163b981be3d6daaac1ad505dd0bf30

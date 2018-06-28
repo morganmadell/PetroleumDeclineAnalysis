@@ -20,7 +20,7 @@ NeedsCompilation: no
 Packaged: 2018-06-01 18:40:41 UTC; kevin
 Repository: CRAN
 Date/Publication: 2018-06-01 19:42:55 UTC
-Built: R 3.4.4; ; 2018-06-15 02:36:06 UTC; unix
+Built: R 3.4.4; ; 2018-06-27 22:19:28 UTC; unix
 InstallAgent: packrat 0.4.9.3
 InstallSource: CRAN
 Hash: 03fb817297975f1da0d1b774b47620b3

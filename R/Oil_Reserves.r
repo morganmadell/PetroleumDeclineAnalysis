@@ -4,6 +4,7 @@
 #'
 #' @param x list of data to parse
 #' @param ReleaseDate optional boolean: set to TRUE to see the date this version of the function was released
+#' @param ReturnDataFrame optional boolean: set to TRUE to have results returned as a dataframe
 #' @importFrom LambertW W
 #' @importFrom MASS lqs
 #' @importFrom methods getDataPart
@@ -12,7 +13,7 @@
 #' @examples
 #' data <- list(SampleWell = data.frame(t=seq(as.POSIXct("2000/1/1"), by = "month", length.out = 100), q=seq(500,5,-5), Q=seq(20,2000,20), qf=rep(25,100)))
 #' Oil_Reserves(data)
-Oil_Reserves <- function(x, ReleaseDate=FALSE){
+Oil_Reserves <- function(x, ReleaseDate=FALSE, ReturnDataFrame=FALSE){
   AlgorithmReleaseDate <- 2016.0831
   if(ReleaseDate) {
     return(AlgorithmReleaseDate)
@@ -133,6 +134,12 @@ Oil_Reserves <- function(x, ReleaseDate=FALSE){
     D_10 <- D_j[10]
     D_20 <- D_j[20]
     D_30 <- D_j[30]
-    return(c(EUR_Exp, EUR_Harm, Rem_Exp, Rem_Harm, D_exp, D_harm, qi_exp, qi_harm, qf, D_1, D_2, D_3, D_5, D_10, D_20, D_30, AlgorithmReleaseDate))
+    if(ReturnDataFrame) {
+      return(
+        data.frame(EUR_Exp=EUR_Exp, EUR_Harm=EUR_Harm, Rem_Exp=Rem_Exp, Rem_Harm=Rem_Harm, D_exp=D_exp, D_harm=D_harm, qi_exp=qi_exp, qi_harm=qi_harm, qf=qf, D_1=D_1, D_2=D_2, D_3=D_3, D_5=D_5, D_10=D_10, D_20=D_20, D_30=D_30, AlgorithmReleaseDate=AlgorithmReleaseDate)
+      )
+    } else {
+      return(c(EUR_Exp, EUR_Harm, Rem_Exp, Rem_Harm, D_exp, D_harm, qi_exp, qi_harm, qf, D_1, D_2, D_3, D_5, D_10, D_20, D_30, AlgorithmReleaseDate))
+    }
   }
 }
